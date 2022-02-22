@@ -1,0 +1,2 @@
+# CleanIsAdmin.github.io
+CleanIsAdmin
