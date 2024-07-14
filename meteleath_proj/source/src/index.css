@@ -1,0 +1,31 @@
+
+@font-face {
+  font-family: "MaruBuri";
+  font-weight: normal;
+  src: url("./fonts/MaruBuri-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MaruBuri";
+  font-weight: bold;
+  src: url("./fonts/MaruBuri-Bold.ttf") format("truetype");
+}
+
+body {
+  font-family: "MaruBuri";
+  font-size: 10px;
+  margin: 0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+p {
+  margin:0;
+}

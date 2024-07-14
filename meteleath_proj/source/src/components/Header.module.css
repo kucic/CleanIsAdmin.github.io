@@ -1,0 +1,79 @@
+
+.company_icon {
+    width: 8rem;   
+}
+
+.top_box {
+    z-Index:1;
+    display:flex;
+    left: 0px;
+    right: 0px;
+    top:0;
+    overflow:hidden;
+    height: 50px; 
+    background-color: white;
+    position: fixed;   
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    padding-left: 0rem;
+    padding-right: 1rem;
+}
+
+.row_l {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ 
+.menu { 
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;     
+}
+
+.menu_title {
+    font-size: 1.2em;
+    font-weight: normal;
+    text-decoration: none;  
+    color: black;  
+    text-align: center;
+}
+
+.btn {
+    height:40px;
+    min-width: 3rem; 
+    text-decoration: "none";
+    font-size: 1.2em;
+    font-weight: normal;
+    text-decoration: none;  
+    color: black;  
+    text-align: center;
+    margin-right: 1rem; 
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.img_btn {
+    display: flex; 
+    height:40px;
+    width:30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 1rem; 
+}
+
+@media (max-width: 639px) {
+    .menu {
+        display: none; 
+    }
+}

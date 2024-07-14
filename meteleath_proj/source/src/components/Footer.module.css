@@ -1,0 +1,118 @@
+.company_icon {
+    width: 8rem;    
+}
+
+.bottom_box {
+    position: relative;
+    display:flex; 
+    flex-direction: row;
+    width: 100vw;
+    overflow:hidden; 
+    background-color: white;    
+    align-items: flex-start;
+    justify-content: space-between; 
+    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.icon_box {
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+     width: 15vw;
+}
+.company_info_box {
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+     width: 60vw;
+}
+
+.company_info_sub_box { 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.sns_box {
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     width: 25vw;
+}
+
+
+.info_box  {
+    margin-bottom: 1rem;
+}
+
+.info_sub_box  {
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+ }
+
+.term_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.company_name_txt {
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    white-space:pre-wrap;
+    line-height: 2rem;
+    margin-right: 1rem;
+}
+
+.content_txt {
+    font-size: 0.8rem;
+    color: black;
+    text-align: left;
+    font-weight: normal;
+    white-space:pre-wrap;
+}
+.term_txt {
+    font-size: 0.8rem;
+    color: black;
+    text-align: left;
+    font-weight: normal;
+    white-space:pre-wrap;
+    margin-right: 0.8rem;
+}
+
+@media (max-width: 900px) { 
+    .icon_box {
+        width: 100vw;
+    }
+    .bottom_box {
+        flex-direction: column;
+    }
+    .company_info_box {
+        padding-left: 1rem;
+        width: 100vw;
+    }
+    .company_info_sub_box {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .info_sub_box {
+        margin-bottom: 1rem;
+    }
+}
