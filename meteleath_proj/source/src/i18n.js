@@ -43,6 +43,17 @@ i18n
                         common: {
                             news: "Latest news",
                         }
+                    },
+                    footer: {
+                        company_name: "Corporation METELATH",
+                        address: "서울특별시 강남구 테헤란로 416,\n13-14층 (대치동, 연봉빌딩)",
+                        ceo_name: "CEO 아무개",
+                        id: "Registration Number 290-xx-xxxxx",
+                        call: "Service inquiry call 070-xx-xxxxx",
+                        email: "E-mail support@metealth.io",
+                        term: "Website Terms of Use",
+                        per : "Privacy policy",
+                        ser: "Terms of Service"
                     }
                 }
             },

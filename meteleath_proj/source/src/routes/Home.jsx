@@ -2,7 +2,7 @@ import { Outlet, useNavigate } from 'react-router-dom';
  import { useTranslation } from 'react-i18next';
  import * as images from "./../images.js"
 import  styles from './Home.module.css';
-import neweastData from "./../../resource/neweast_data.json"
+import newestData from "./../../resource/newest_data.json"
   
 // box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 function Home() {  
@@ -41,7 +41,7 @@ function Home() {
         let source_date = data.source + " | " + data.date; 
         let content = data.content;
         let backgroundColor = data.color;
-        let backgroundImage = images.neweast_root +  data.image;
+        let backgroundImage = images.newest_root +  data.image;
         console.log("DATA : ", backgroundImage)
         return (
             <div className={styles.newest_item} key={index} style={{backgroundColor: backgroundColor}} 
@@ -108,7 +108,7 @@ function Home() {
                 <div className={`${styles.content_box} ${styles.newest_box}`}> 
                     <ul className={styles.scroll_h}>
                         <div className={styles.empty} />
-                        {neweastData.data.map( (item,index)=> neweatItem(item, index))}
+                        {newestData.data.map( (item,index)=> neweatItem(item, index))}
                     </ul>
                 </div>
                 {/* 회사알아보기 */}

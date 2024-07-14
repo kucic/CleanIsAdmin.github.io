@@ -12,8 +12,14 @@ export const act3 = '/resource/img/act/act3.jpg'
 export const act4 = '/resource/img/act/act4.jpg'
 
 // neweast
-export const neweast_root = "/resource/neweast_img/";
+export const newest_root = "/resource/newest_img/";
 
 // home 
 export const home_main = "/resource/img/home/home_main.jpg";
 export const home_company = "/resource/img/home/home_company.jpg";
+
+// sns
+export const instagram = "/resource/sns/instagram.png";
+export const naver_blog = "/resource/sns/naverblog.png";
+export const youtube = "/resource/sns/youtube.png";
+export const facebook = "/resource/sns/facebook.png";
